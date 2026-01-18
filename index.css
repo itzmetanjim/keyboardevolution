@@ -1,0 +1,137 @@
+body{
+    background-image: url('beige-paper-background-simple-diy-craft.jpg');
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+.hflex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2vw;
+}
+.hflex > span{
+    display: inline-block;
+    vertical-align: top;
+}
+.rounded{
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding:0.5vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color:black;
+    border-style: solid;
+    width: auto;
+    height: auto;
+}
+
+    .vw15, .vw1, .vw175, .vws25, .vw475,.vw2 {
+        margin: 0.1vw;
+        color:black;
+    }
+.vw15{
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 4.5vw;
+    min-height: 3vw; 
+    line-height: 3vw;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    background-color: rgba(200,200,200, 0.8);
+    border-color:black;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+}
+.vw1{
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 3vw;
+    min-height: 3vw; 
+    border-radius: 5px;
+    font-size: 1.5vw;
+    background-color: rgba(200,200,200, 0.8);
+    border-color:black;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+}
+.vw175{
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 5.25vw;
+    min-height: 3vw; 
+    line-height: 3vw;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    background-color: rgba(200,200,200, 0.8);
+    border-color:black;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+}
+.vws25{
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 1.65vw;
+    min-height: 3vw; 
+    line-height: 3vw;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    background-color: rgba(200,200,200, 0.8);
+    border-color:black;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+}
+.vw475{
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 15.75vw;
+    min-height: 3vw; 
+    line-height: 3vw;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    background-color: rgba(200,200,200, 0.8);
+    border-color:black;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+}
+.vw2{
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 6vw;
+    min-height: 3vw; 
+    line-height: 3vw;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    background-color: rgba(200,200,200, 0.8);
+    border-color:black;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+}
+.vw075{
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 2.25vw;
+    min-height: 3vw; 
+    line-height: 3vw;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    background-color: rgba(200,200,200, 0.8);
+    border-color:black;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+}
+.vw1.lkey{
+    background-color:rgba(255,255,255,0.8);
+}
+#testing{
+    font-size: 1.5vw;
+    font-family:'Courier New', Courier, monospace;
+}

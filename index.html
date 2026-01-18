@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>thingy</title>
+</head>
+<body>
+    <div class="hflex">
+        <div>
+    <h2>Result:  <button id="import">Import</button> <button id="export">Export</button></h2>
+    <div class="rounded" id="lastkb">
+        <span class="vw15"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><br>
+        <span class="vw175"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw075"></span><br>
+        <span class="vw2"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw1 lkey"></span><span class="vw2"></span><span class="vws25"></span><br>
+        <span class="vw1"></span><span class="vw1"></span><span class="vw1"></span><span class="vw1"></span><span class="vw475"></span><span class="vw1"></span><span class="vw15"></span>
+    </div>
+    <h2>Training data</h2>
+    <textarea id="trainingdata" rows="15" cols="60"></textarea>
+    <br>
+    Steps/generations: <input type="text" id="generations" value="100"></input><br>
+    Population size: <input type="text" id="populationsize" value="100"></input>
+    <br>
+    <button id="trainbtn">Start Training</button><br><span id="status"></span>
+    </div><div>
+        <h2>Testing area</h2>
+        <textarea id="testing" rows="7" cols="30"></textarea>
+        <h2>What is this?</h2>
+        <div style="max-width:22vw;">
+        <p>This is a tool to find the keyboard layout that gives the least amount of strain on your hands and fingers.</p>
+        <p>It uses genetic algorithms to optimize the keyboard layout and Finite Element Analysis on the hands to evaluate the total strain on the hands after typing the entire training set and minimizes that.</p>
+        <p>Total stress of QWERTY layout (with default training data): 12,088,245 (lower is better)</p>
+        <p>Total stress of imported/trained layout: <span id="eff">you did not import or train it yet</span></p>
+        </div>
+    </div>
+</div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
